@@ -67,7 +67,7 @@ const Home = () => {
                     : 'bg-white/20 hover:bg-white/30'
                 }`}
               >
-                <div className={`text-6xl mb-2 transition-transform ${targetLanguage === lang.code ? '' : 'group-hover:scale-110'}`}>
+                <div className={`text-6xl mb-2 transition-transform ${targetLanguage === lang.code ? 'w-20 h-20 flex items-center justify-center bg-gradient-to-br ' + lang.color + ' rounded-xl' : 'group-hover:scale-110'}`}>
                   {lang.icon}
                 </div>
                 <div className={`font-semibold ${targetLanguage === lang.code ? 'text-indigo-600' : 'text-white'}`}>
