@@ -39,3 +39,11 @@ yarn-error.log*
 package-lock.json
 yarn.lock
 pnpm-lock.yaml
+
+# Windows installer files
+*.msi
+
+# Non-essential batch files
+*启动*
+*检查*
+*一键*
