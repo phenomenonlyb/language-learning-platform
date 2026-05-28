@@ -4,7 +4,7 @@ import path from 'path'
 
 export default defineConfig({
   plugins: [react()],
-  base: './',
+  base: '/language-learning-platform/',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
